@@ -6,16 +6,20 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <a href="onderwerp1.php">Pagina 1</a> 
-        <a href="onderwerp2.php">Pagina 2</a> 
-        <a href="onderwerp3.php">Pagina 3</a> 
-    </nav>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.php?page=onderwerp1">Onderwerp1</a></li>
+                <li><a href="index.php?page=onderwerp2">Onderwerp2</a></li>
+                <li><a href="index.php?page=onderwerp3">Onderwerp3</a></li>
+            </ul>
+        </nav>
 
-    <header>
-        <h1>Onderwerp pagina</h1>
-        <p>Beschrijving onderwerp</p>
-    </header>
+        <!--<header>
+            <h1>Onderwerp pagina</h1>
+            <p>Beschrijving onderwerp</p>
+        </header>-->
+    </div>
 
 </body>
 </html>
