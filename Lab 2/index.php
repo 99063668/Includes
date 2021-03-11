@@ -7,14 +7,28 @@
 </head>
 <body>
 
+<!--Header-->
 	<?php
     include "includes/header.php";
   ?>
 
+<!--Pages-->
+  <?php 
+    if($_GET["page"] == "onderwerp1") {
+      include "pages/onderwerp1.php";
+    }
+    if($_GET["page"] == "onderwerp2") {
+      include "pages/onderwerp2.php";
+    }
+    if($_GET["page"] == "onderwerp3") {
+      include "pages/onderwerp3.php";
+    }
+    if($_GET["page"] == "onderwerp4") {
+      include "pages/onderwerp4.php";
+    }
+  ?>
 
-	<!-- laad hier via php de juiste contentpagina in (vanuit de pages map) in. Welke geselecteerd moet worden kun je uit de URL halen (URL_Params).-->
-
-	
+	<!--Footer-->
 	<?php
     include "includes/footer.php";
   ?>
