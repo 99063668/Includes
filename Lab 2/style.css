@@ -32,10 +32,11 @@ header{
     margin: auto;
     background: white;
     padding: 1px;
+    color: black;
 }
 
 .pagecontainer{
-    padding-left: 15px;
+    color: black;
 }
 
 footer{

@@ -9,16 +9,12 @@
     <div class="container">
         <nav>
             <ul>
-                <li><a href="index.php?page=onderwerp1">Onderwerp1</a></li>
-                <li><a href="index.php?page=onderwerp2">Onderwerp2</a></li>
-                <li><a href="index.php?page=onderwerp3">Onderwerp3</a></li>
+                <li><a href="index.php?page=Call_of_Duty">Call of Duty</a></li>
+                <li><a href="index.php?page=GTA_V">GTA V</a></li>
+                <li><a href="index.php?page=Beat_Saber">Beat Saber</a></li>
+                <li><a href="index.php?page=Tekken_7">Tekken 7</a></li>
             </ul>
         </nav>
-
-        <!--<header>
-            <h1>Onderwerp pagina</h1>
-            <p>Beschrijving onderwerp</p>
-        </header>-->
     </div>
 
 </body>

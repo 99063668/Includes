@@ -10,7 +10,7 @@
 <body>
     <div class="container">
       <div class="pagecontainer">
-          <h1>Title4</h1>
+          <h1>Tekken 7</h1>
           <p>Description</p>
       </div>
     </div>
