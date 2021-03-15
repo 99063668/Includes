@@ -14,18 +14,7 @@
 
 <!--Pages-->
   <?php 
-    if($_GET["page"] == "onderwerp1") {
-      include "pages/onderwerp1.php";
-    }
-    if($_GET["page"] == "onderwerp2") {
-      include "pages/onderwerp2.php";
-    }
-    if($_GET["page"] == "onderwerp3") {
-      include "pages/onderwerp3.php";
-    }
-    if($_GET["page"] == "onderwerp4") {
-      include "pages/onderwerp4.php";
-    }
+   include "pages/onderwerp.php"
   ?>
 
 	<!--Footer-->
