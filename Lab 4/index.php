@@ -9,34 +9,16 @@
 
 <!--Header-->
 <?php
-	include "includes/header.php";
+  include "includes/database.php";
+	include "includes/header.php"; 
 ?>
 
 <!--Pages-->
 <div class="container">
   <div class="pagecontainer">
-    <?php
-        include "includes/database.php";
-    ?>
-  
-    <?php
-      $query = $connect->prepare("SELECT * FROM onderwerpen");
-
-      $query->execute();
-      $result = $query->FetchAll(PDO::FETCH_ASSOC);
-      $page = $_GET["page"];
-      $key = array_search($page, $result);
-      print_r($key);
-
-      $value = $result[$index];
-
-      $connect = null;
-    ?>
-
-    <h1><?php echo $result["name"];?></h1>
-    <p><?php echo $result["description"];?></p>
-    <img class="images" src="<?php  echo $result["image"];?>" alt ="pageimages">
-
+    <h1><?php echo $value["name"];?></h1>
+    <p><?php echo $value["description"];?></p>
+    <img class="images" src="<?php echo $value["image"];?>" alt ="pageimages">
   </div>
 </div>
 
